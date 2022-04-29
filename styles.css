@@ -1,0 +1,302 @@
+/* page modification */
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;    
+}
+
+
+/* header */
+
+.header {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: auto;
+    margin: 1% 15%;
+}
+
+.header-logo {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.header-links {
+    font-size: 18px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+/* end header */
+
+
+
+/* content */
+
+.content {
+    display: flex;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+
+
+/* hero */
+
+.hero {
+    background-color: #1f2937;
+    
+}
+
+.hero-container {
+    margin: 1% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+    height: 400px;
+}
+
+.awesome-container {
+
+}
+
+.hero-title {
+    color: #f9faf8;
+    font-size: 48px;
+}
+
+.hero-text {
+    color: #e5e7eb;
+    font-size: 18px;
+    max-width: 525px;
+    margin-bottom: 8px;
+}
+
+.hero-button {
+
+}
+
+.hero-signup {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border: none;
+    border-radius: 8px 8px 8px 8px;
+    padding: 6px 24px;
+    font-size: 18px;
+}
+
+.hero-img {
+    background-color: rgba(134, 134, 135, 0.646);
+    opacity: .3;
+    width: 500px;
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f9faf8;
+    font-size: 18px;
+}
+
+.hero-img2 {
+
+}
+
+/* end hero */
+
+
+
+/* info */
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+.info-container{
+    margin: 1% 15%;
+    height: 400px;
+}
+
+.info-title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.info-content {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.info-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #3882f6;
+    height: 175px;
+    width: auto;
+    border-radius: 9%;
+    margin-bottom: 12px;
+}
+
+.info-text {
+    max-width: 200px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.text {
+    
+}
+
+/* end info */
+
+
+
+/* quote */
+
+.quote {
+    background-color: #e5e7eb;
+}
+
+.quote-container {
+    margin: 1% 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    height: 400px;
+}
+
+.testimony {
+    
+}
+
+.testimony-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    max-width: 1000px;
+}
+
+.thor {
+    font-size: 18px;
+    color: #1f2937;
+    font-weight: bold;
+    text-align: right;
+}
+
+/* end quote */
+
+
+
+/* action */
+
+.action {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-container {
+    background-color: #3882f6;
+    margin: 1% 15%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 175px;
+    width: auto;
+    border-radius: 15px 15px 15px 15px;
+    flex: 1;
+}
+
+.action-text {
+    
+}
+
+.action-title {
+    color: #f9faf8;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.action-subtext {
+    color: #e5e7eb;
+    font-size: 18px;
+
+}
+
+.action-button {
+
+}
+
+.action-signup {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border: 2px solid #e5e7eb;
+    border-radius: 8px 8px 8px 8px;
+    padding: 6px 24px;
+    font-size: 18px;
+}
+
+/* end action */
+
+
+
+/* end content */
+
+
+
+/* footer */
+
+.footer {
+    background-color: #1f2937;
+    height: 75px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-container {   
+    margin: 1% 15%;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+/* end footer */
+
+
+
+/* end page modification */
